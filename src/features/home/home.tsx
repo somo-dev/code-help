@@ -1,10 +1,11 @@
 import cx from "clsx";
 import { Title, Text, Container, Button, Overlay } from "@mantine/core";
 import classes from "./home.module.css";
+import { ArticlesCardsGrid } from "./card";
 
 export function Home() {
   return (
-    <>
+    <div>
       <div className={classes.wrapper}>
         <Overlay color="#000" opacity={0.65} zIndex={1} />
 
@@ -37,7 +38,10 @@ export function Home() {
           </div>
         </div>
       </div>
-      <Title className={classes.title} mt={30}>Coming Soon</Title>
-    </>
+      <Title className={classes.title} mt={30}>
+        Coming Soon
+      </Title>
+      <ArticlesCardsGrid />
+    </div>
   );
 }
