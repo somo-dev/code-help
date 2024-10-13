@@ -6,6 +6,10 @@
       font-size: rem(24px);
    }
 }
+.bgimage {
+   background-image: url(https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
 
 .description {
    max-width: rem(600px);
